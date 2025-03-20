@@ -1,6 +1,0 @@
-import qrcode 
-
-data=input("Enter the message")
-qr=qrcode.make(data)
-qr.save("C:/Users/Latitude/Desktop/q1.png")
-qr.show()
